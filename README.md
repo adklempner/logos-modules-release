@@ -12,27 +12,81 @@ by fetching `logos-repo.json` from the default branch root.
 
 ## Module set
 
+### Logos Blockchain
+
 | Module | Source |
 |---|---|
 | `lez-explorer-ui` | logos-blockchain |
 | `lez-indexer-module` | logos-blockchain |
-| `logos-accounts-module` | logos-co |
-| `logos-accounts-ui` | logos-co |
+| `logos-amm-module` | logos-blockchain |
+| `logos-amm-ui-module` | logos-blockchain |
 | `logos-blockchain-module` | logos-blockchain |
 | `logos-blockchain-ui` | logos-blockchain |
+| `logos-execution-zone-module` | logos-blockchain |
+| `logos-execution-zone-wallet-ui` | logos-blockchain |
+
+### Logos Messaging
+
+| Module | Source |
+|---|---|
 | `logos-chat-module` | logos-co |
 | `logos-chat-module-mix` | logos-co (`feat/logos-testnetv02-mix`) |
 | `logos-chat-ui` | logos-co |
 | `logos-chat-ui-mix` | logos-co (`feat/logos-testnetv02-mix`) |
+| `logos-delivery-demo` | logos-co |
 | `logos-delivery-module` | logos-co |
-| `logos-execution-zone-module` | logos-blockchain |
-| `logos-execution-zone-wallet-ui` | logos-blockchain |
-| `logos-json-rpc-bridge` | logos-co |
 | `logos-libp2p-module` | logos-co |
+
+### Logos Storage
+
+| Module | Source |
+|---|---|
 | `logos-storage-module` | logos-co |
 | `logos-storage-ui` | logos-co |
-| `logos-wallet-module` | logos-co |
-| `logos-wallet-ui` | logos-co |
+
+### EVM Wallet
+
+| Module | Source |
+|---|---|
+| `logos-eth-rpc-ui` | logos-co |
+| `logos-eth-wallet-backend` | logos-co |
+| `logos-eth-wallet-ui` | logos-co |
+| `logos-evm-assets-module` | logos-co |
+| `logos-evm-eth-rpc-module` | logos-co |
+| `logos-evm-fee-module` | logos-co |
+| `logos-evm-keystore-cli` | logos-co |
+| `logos-evm-keystore-module` | logos-co |
+| `logos-evm-keystore-ui` | logos-co |
+| `logos-evm-signer-cli` | logos-co |
+| `logos-evm-signer-ui` | logos-co |
+| `logos-evm-token-list-module` | logos-co |
+| `logos-evm-tx-sender-module` | logos-co |
+| `logos-evm-uniswap-module` | logos-co |
+| `logos-token-list-ui` | logos-co |
+| `logos-uniswap-backend` | logos-co |
+| `logos-uniswap-ui` | logos-co |
+| `logos-verified-proxy-module` | logos-co |
+| `logos-verified-proxy-ui` | logos-co |
+
+### Monero Wallet
+
+| Module | Source |
+|---|---|
+| `logos-monero-node-module` | logos-co |
+| `logos-monero-wallet-backend` | logos-co |
+| `logos-monero-wallet-cli` | logos-co |
+| `logos-monero-wallet-core-module` | logos-co |
+| `logos-monero-wallet-ui` | logos-co |
+| `logos-monerod-module` | logos-co |
+| `logos-monerod-ui` | logos-co |
+
+### Others
+
+| Module | Source |
+|---|---|
+| `logos-accounts-ui` | logos-co |
+| `logos-json-rpc-bridge` | logos-co |
+| `openmetrics-module` | logos-co |
 
 ## Runners and the Nix cache
 
